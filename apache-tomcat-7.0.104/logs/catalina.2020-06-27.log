@@ -1,0 +1,186 @@
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.15.0-58-generic
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.7+10-post-Ubuntu-2ubuntu218.04
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/sisdis/apache-tomcat-7.0.104/conf/logging.properties
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/sisdis/apache-tomcat-7.0.104/temp
+Jun 27, 2020 3:39:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Jun 27, 2020 3:39:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 3:39:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1952 ms
+Jun 27, 2020 3:39:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 27, 2020 3:39:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Jun 27, 2020 3:39:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/docs]
+Jun 27, 2020 3:39:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/docs] has finished in [843] ms
+Jun 27, 2020 3:39:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/examples]
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/examples] has finished in [514] ms
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/manager]
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/manager] has finished in [138] ms
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/host-manager]
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/host-manager] has finished in [101] ms
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/ROOT]
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/ROOT] has finished in [74] ms
+Jun 27, 2020 3:39:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 3:39:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1984 ms
+Jun 27, 2020 3:56:56 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso.war]
+Jun 27, 2020 3:56:57 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso/WEB-INF/lib/jakarta.servlet-api-4.0.3.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jun 27, 2020 3:56:58 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 27, 2020 3:56:58 PM org.glassfish.jersey.server.wadl.WadlFeature configure
+WARNING: JAXBContext implementation could not be found. WADL feature is disabled.
+Jun 27, 2020 3:56:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso.war] has finished in [2,542] ms
+Jun 27, 2020 4:01:40 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 27, 2020 4:01:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 4:01:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jun 27, 2020 4:01:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 4:01:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.15.0-58-generic
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.7+10-post-Ubuntu-2ubuntu218.04
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/sisdis/apache-tomcat-7.0.104/conf/logging.properties
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/sisdis/apache-tomcat-7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/sisdis/apache-tomcat-7.0.104/temp
+Jun 27, 2020 4:01:51 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Jun 27, 2020 4:01:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1551 ms
+Jun 27, 2020 4:01:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 27, 2020 4:01:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Jun 27, 2020 4:01:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso.war]
+Jun 27, 2020 4:01:51 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso/WEB-INF/lib/jakarta.servlet-api-4.0.3.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jun 27, 2020 4:01:53 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 27, 2020 4:01:54 PM org.glassfish.jersey.server.wadl.WadlFeature configure
+WARNING: JAXBContext implementation could not be found. WADL feature is disabled.
+Jun 27, 2020 4:01:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/RAProceso.war] has finished in [4,096] ms
+Jun 27, 2020 4:01:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/docs]
+Jun 27, 2020 4:01:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/docs] has finished in [103] ms
+Jun 27, 2020 4:01:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/examples]
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/examples] has finished in [684] ms
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/manager]
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/manager] has finished in [132] ms
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/host-manager]
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/host-manager] has finished in [89] ms
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/ROOT]
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/vagrant/sisdis/apache-tomcat-7.0.104/webapps/ROOT] has finished in [78] ms
+Jun 27, 2020 4:01:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 27, 2020 4:01:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5451 ms
